@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Poppins:wght@300&display=swap');
+
+#container1{
+    width: 1440px;
+    height: 1000px;
+    background-color: hsl(225,100%,98%); 
+    padding-top: 200px;
+}
+#container2{
+    width: 450px;
+    height: 600px;
+    text-align: center;
+    margin-left: 400px; 
+    line-height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: poppins;
+    
+}
+#banner{
+    border: 450px;
+    border-radius: 20px 20px 0 0;
+}
+.heading{
+    margin-top: 30px;
+    
+}
+.paragraph1{
+    margin-top: 20px;
+    padding: 5px 50px;
+    
+}
+#information{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px; 
+    height: 50px;
+    background-color: rgb(237, 237, 242);
+    line-height: 20px;
+    margin: 30px 0 30px 70px;
+    padding: 10px 15px;
+    border-radius: 5px;
+} 
+.container{
+     display: flex;
+}
+
+#piece{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 8px;
+}
+#part{
+    font-size: 12px;
+
+}
+#button{
+    margin: 50px 50px;
+    padding-right: 10px;
+}
+.realbutton{
+    background-color: blue;
+    color: white;
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 12px;
+    box-shadow: 10px 10px 10px rgb(182, 121, 182);
+    margin-bottom: 15px; 
+}
+.direction{
+    font-size: 17px;
+}
